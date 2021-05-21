@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.content{
+    width: 1200px;
+    margin:0 auto;
+    padding: 20px auto;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+header{
+    width: 100%;
+    background: #3c7d31;
+    height: 100px;
+}
+
+h1{
+    margin-top:40px;
+	margin-left:auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+nav{
+    float: right;
+}
+
+nav a{
+    padding: 0 30px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.Descripcion{
+    width: 20%;
+    float: left;
+}
+
+.Descripcion p{
+    margin-top:5px;
+	margin-bottom: 40px; 
+	margin-left:auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.caja{
+    width: 92%;
+    height: 160px;
+    background: #958419;
+    padding: 50px;
+    text-align: center;
+    margin-top:20px;
+}
+
+.caja h1{
+    line-height: 16px;
+    margin-top:5px;
+}
+
+.caja p{
+    line-height: 19px;
+    margin-top:10px;
+}
+
+.LLaboratorios{
+    width: 100%;
+    height: 350px;
+    background: #f2f2f2;
+    padding: 10x;
+    text-align: center;
+    margin-top:40px;
+}
+
+.LLaboratorios h1{
+    line-height: 50px;
+    margin-top:10px;
+}
+.LLaboratorios ul{
+    margin-top:10px;
+}
+
+.LLaboratorios p{
+    line-height: 19px;
+    margin-top:10px;
+}
+
+.Laboratorios{
+    width: 100%;
+    height: 50px;
+    background: #3c7d31;
+    padding: 10x;
+    text-align: center;
+    margin-top:40px;
+}
+
+.Laboratorios h1{
+    line-height: 50px;
+}
+
+.porta{
+    width: 89%;
+    background: #f2f2f2;
+    padding: 70px;
+    text-align: center;
+    margin-top:20px;
+}
+
+.Interaccion{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.imagen{
+    width: 99%;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 20px 20px 20px 20px rgba(0,0,0,0);
+    padding: 50px 50px 50px 50px;
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+}
+
+.imagen img{
+    width: 5%;
+}
+
+.portafo{
+    width: 89%;
+    background: #f2f2f2;
+    padding: 70px;
+    text-align: center;
+    margin-top:20px;
+}
+
+.Redes{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.imagen{
+    width: 20%;
+    margin-bottom: 5px;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,5);
+}
+
+.imagen > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.portafoli{
+    width: 89%;
+    background: #f2f2f2;
+    padding: 70px;
+    text-align: center;
+    margin-top:20px;
+}
+
+.Desarrolloo{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+}
+
+.imagen{
+    width: 20%;
+    margin-bottom: 5px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,5);
+}
+
+.imagen > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+
+}
+
+.portafolioo{
+    width: 89%;
+    background: #f2f2f2;
+    padding: 70px;
+    text-align: center;
+    margin-top:20px;
+}
+
+.Arquitectura{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.imagen{
+    width: 20%;
+    margin-bottom: 5px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,5);
+}
+
+.imagen > img{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+
+}
+
+.portafoliooo{
+    width: 89%;
+    background: #f2f2f2;
+    padding: 70px;
+    text-align: center;
+    margin-top:20px;
+}
+
+.ElectronicaF{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.imagen{
+    width: 20%;
+    margin-bottom: 5px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,5);
+}
+
+.imagen > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.Almacen{
+    width: 89%;
+    background: #f2f2f2;
+    padding: 70px;
+    text-align: center;
+    margin-top:20px;
+}
+.AlmacenEle{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.imagen{
+    width: 20%;
+    margin-bottom: 5px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,5);
+}
+
+.imagen  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    text-align: center;
+}
+
+.about-carreras{
+    width: 92%;
+    background: #3c7d31;
+    padding: 50px;
+    text-align: center;
+    margin-top:20px;
+}
+
+.carreras-cont{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.carreras-ind{
+    width: 50%;
+    text-align: center;
+}
+
+.carreras-ind img{
+    width: 20%;
+}
+
+.carreras-ind h3{
+    margin: 10px 0;
+}
+
+.carreras-ind p{
+    font-weight: 100;
+    text-align: center;
+}
+
+.Final{
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    background: #144633;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.Final-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.Final-foo{
+    text-align: center;
+}
+
+.Final-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #144633;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.Final-foo p{
+    color: #fff;
+}
+
+footer nav{
+    float: right;
+    margin-bottom: 20px;
+}
+
+footer a{
+    padding: 0 30px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0 0;
+}
+
+.pagina{
+    width: 15%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.pagina nav{
+    float: right;
+}
+
+.Pie{
+    margin-top: 10%;
+    line-height: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
